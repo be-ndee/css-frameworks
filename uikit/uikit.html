@@ -1,7 +1,106 @@
 <html>
 	<head>
-		<title>uikit example</title>
+		<title>UIKit example</title>
+		<link rel="stylesheet" href="../bower_components/uikit/css/uikit.min.css" />
+		<script src="../bower_components/jquery/dist/jquery.min.js"></script>
+		<script src="../bower_components/uikit/js/uikit.min.js"></script>
 	</head>
 	<body>
+		<nav class="uk-navbar">
+		<a href="#" class="uk-navbar-brand">Home</a>
+		<ul class="uk-navbar-nav">
+		<li>
+		<a href="#">Page</a>
+		</li>
+		<li>
+		<a href="#">About</a>
+		</li>
+		</ul>
+		<div class="uk-navbar-flip">
+		<ul class="uk-navbar-nav">
+		<li class="uk-parent" data-uk-dropdown>
+		<a href="#">User fooMan</a>
+		<div class="uk-dropdown uk-dropdown-navbar">
+		<ul class="uk-nav uk-nav-navbar">
+		<li><a href="#">Profile</a></li>
+		<li><a href="#">Settings</a></li>
+		<li><a href="#">Logout</a></li>
+		</ul>
+		</div>
+		</li>
+		</ul>
+		</div>
+		</nav>
+
+		<div class="uk-container uk-container-center uk-margin-top">
+			<div class="uk-grid">
+				<div class="uk-width-1-1">
+					<div class="uk-panel-box">
+						<h4>Little panel</h4>
+						<p>This site is an example for foundation framework. Easily created in about 15mins</p>
+						<h4>Some interesting lorem ipsum</h4>
+						<p>
+							Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+
+							Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet,
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="uk-grid">
+				<div class="uk-width-1-2 uk-margin-top">
+					<form class="uk-form" action="#">
+						<fieldset data-uk-margin>
+							<div class="uk-form-row">
+								<input type="text" placeholder="Name" />
+								<input type="text" placeholder="Info" />
+							</div>
+							<div class="uk-form-row">
+								<input type="number" placeholder="24" />
+								<button type="submit" class="uk-button">Create</button>
+							</div>
+						</fieldset>
+					</form>
+				</div>
+				<div class="uk-width-1-2 uk-margin-top">
+					<table class="uk-table uk-table-hover">
+						<thead>
+							<tr>
+								<th>#</th>
+								<th>Username</th>
+								<th>Age</th>
+								<th>Info</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>1</td>
+								<td>kara2</td>
+								<td>23</td>
+								<td>Foo bar lorem</td>
+							</tr>
+							<tr>
+								<td>2</td>
+								<td>rico</td>
+								<td>43</td>
+								<td>Cool man with glasses</td>
+							</tr>
+							<tr>
+								<td>3</td>
+								<td>hansi</td>
+								<td>25</td>
+								<td>Yeah man</td>
+							</tr>
+							<tr>
+								<td>4</td>
+								<td>smarti</td>
+								<td>32</td>
+								<td>Smart business man</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
 	</body>
 </html>
