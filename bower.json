@@ -1,9 +1,0 @@
-{
-	"name" : "css-frameworks",
-	"description" : "repo with different css frameworks and example usage",
-	"version" : "0.1",
-	"dependencies" : {
-		"foundation" : "*",
-		"uikit" : "*"
-	}
-}
