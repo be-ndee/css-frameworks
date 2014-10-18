@@ -20,14 +20,17 @@ Everybody knows it...
 * MIT License
 * LESS, SASS
 
-### Foundation [Example](foundation/foundation.html "Foundation example")
+### Foundation 
+[Example](foundation/foundation.html "Foundation example")
 
 * MIT License
 * SASS
 * [Web](http://foundation.zurb.com "Foundation web")  
 * [Docu](http://foundation.zurb.com/docs/ "Foundation Docu")  
 
-### UIKit [Example](uikit/uikit.html "UIKit example") [Example gradient](uikit/uikit-gradient.html "UIKit example gradient")
+### UIKit 
+[Example](uikit/uikit.html "UIKit example")  
+[Example gradient](uikit/uikit-gradient.html "UIKit example gradient")
 
 * MIT License
 * LESS
