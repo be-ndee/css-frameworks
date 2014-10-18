@@ -1,7 +1,135 @@
-<html>
+<!DOCTYPE html>
+<!--[if IE 9]><html class="lt-ie10" lang="en" > <![endif]-->
+<html class="no-js" lang="en" >
 	<head>
-		<title>foundation example</title>
+		<meta charset="utf-8">
+		<!-- If you delete this meta tag World War Z will become a reality -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Example - Foundation</title>
+
+		<!-- If you are using the CSS version, only link these 2 files, you may add app.css to use for your overrides if you like -->
+		<link rel="stylesheet" href="../bower_components/foundation/css/normalize.css">
+		<link rel="stylesheet" href="../bower_components/foundation/css/foundation.css">
+
+		<script src="../bower_components/foundation/js/vendor/modernizr.js"></script>
 	</head>
 	<body>
+		<!-- top-nav-bar -->
+		<nav class="top-bar" data-topbar role="navigation">
+			<ul class="title-area">
+				<li class="name">
+					<h1><a href="#">Home</a></h1>
+				</li>
+				<!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+				<li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+			</ul>
+
+			<section class="top-bar-section">
+				<!-- Right Nav Section -->
+				<ul class="right">
+					<li class="has-dropdown">
+						<a href="#">User: fooMan</a>
+						<ul class="dropdown">
+							<li><a href="#">Profile</a></li>
+							<li><a href="#">Settings</a></li>
+							<li><a href="#">Logout</a></li>
+						</ul>
+					</li>
+				</ul>
+
+				<!-- Left Nav Section -->
+				<ul class="left">
+					<li><a href="#">Page</a></li>
+					<li><a href="#">About</a></li>
+				</ul>
+			</section>
+		</nav>
+
+		<!-- panel with text -->
+		<div class="row" style="margin-top: 20px;">
+			<div class="large-12 columns">
+				<div class="panel">
+					<h4>Little panel</h4>
+					<p>This site is an example for foundation framework. Easily created in about 15mins</p>
+					<h4>Some interesting lorem ipsum</h4>
+					<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+
+		Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet,</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="large-6 columns">
+				<form>
+					<div class="row">
+						<div class="large-6 columns">
+							<label>Name
+								<input type="text" placeholder="Name" />
+							</label>
+						</div>
+						<div class="large-6 columns">
+							<label>Info
+								<input type="text" placeholder="Info" />
+							</label>
+						</div>
+					</div>
+					<div class="row">
+						<div class="large-6 columns">
+							<label>Age
+								<input type="number" placeholder="24" />
+							</label>
+						</div>
+						<div class="large-6 columns">
+							<a role="button" href="#" class="button small" style="margin-top: 20px;">Create</a>
+						</div>
+					</div>
+				</form>
+			</div>
+			<div class="large-6 columns">
+				<table width="100%">
+					<thead>
+						<tr>
+							<th>#</th>
+							<th>Username</th>
+							<th>Age</th>
+							<th>Info</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>1</td>
+							<td>kara2</td>
+							<td>23</td>
+							<td>Foo bar lorem</td>
+						</tr>
+						<tr>
+							<td>2</td>
+							<td>rico</td>
+							<td>43</td>
+							<td>Cool man with glasses</td>
+						</tr>
+						<tr>
+							<td>3</td>
+							<td>hansi</td>
+							<td>25</td>
+							<td>Yeah man</td>
+						</tr>
+						<tr>
+							<td>4</td>
+							<td>smarti</td>
+							<td>32</td>
+							<td>Smart business man</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+
+		<script src="../bower_components/foundation/js/vendor/jquery.js"></script>
+		<script src="../bower_components/foundation/js/foundation.min.js"></script>
+		<script>
+			$(document).foundation();
+		</script>
 	</body>
 </html>
