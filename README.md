@@ -7,26 +7,21 @@ Repo to collect or create an overview about different css-frameworks
 
 ### Bootstrap
 
-- MIT
-- LESS, SASS
+```
+Everybody knows it...
+```
 
-Everbody knows it...
+* MIT
+* LESS, SASS
 
 ### Foundation [Example](foundation/foundation.html "Foundation example")
 
-- MIT
-- SASS
-
-Seems cool
-
-**Links**
-
-[Web](http://foundation.zurb.com "Foundation web")  
+* MIT
+* SASS
+* [Web](http://foundation.zurb.com "Foundation web")  
 [Docu](http://foundation.zurb.com/docs/ "Foundation Docu")  
 
 ### UIKit [Example](uikit/uikit.html "UIKit example")
 
-- MIT
-- LESS
-
-Seems cool
+* MIT
+* LESS
