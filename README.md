@@ -3,6 +3,12 @@ css-frameworks
 
 Repo to collect or create an overview about different css-frameworks
 
+You can install the required frameworks with bower:
+
+```
+bower install
+```
+
 ## List
 
 ### Bootstrap
